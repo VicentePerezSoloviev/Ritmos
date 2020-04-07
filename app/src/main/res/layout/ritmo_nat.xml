@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/distancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/distancia"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/distancia_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="40dp"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="5"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/distancia_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/metros" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tiempo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tiempo"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/horas_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="@android:dimen/app_icon_size"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/horas_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/horas_inter" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/min_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="@android:dimen/app_icon_size"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/min_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minutos_inter" />
+    </TableRow>
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/sec_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="@android:dimen/app_icon_size"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/sec_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/segundos_inter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/carrera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:onClick="calcular_ritmo"
+            android:text="@string/calcular" />
+
+        <Button
+            android:id="@+id/carrera_"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:layout_marginLeft="25dp"
+            android:onClick="limpiar_ritmo"
+            android:text="@string/limpiar" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/ritmo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ritmo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/min_ritmo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/min_ritmo_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minutos_inter" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/sec_ritmo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/sec_ritmo_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/segundos_per_100m_inter" />
+    </TableRow>
+
+</TableLayout>

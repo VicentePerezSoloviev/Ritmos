@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/deporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deporte"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/deportes_spinner"
+            android:layout_width="fill_parent"
+            android:entries="@array/deportes_array"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/distancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/distancia"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/distancia_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="40dp"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="5"/>
+
+        <TextView
+            android:id="@+id/distancia_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/metros" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tiempo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tiempo"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/horas_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="@android:dimen/app_icon_size"
+            android:ems="10"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/horas_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/horas_inter" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView />
+
+        <EditText
+            android:id="@+id/min_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="@android:dimen/app_icon_size"
+            android:ems="10"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/min_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minutos_inter" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView />
+
+        <EditText
+            android:id="@+id/sec_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="@android:dimen/app_icon_size"
+            android:ems="10"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/sec_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/segundos_inter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/descripcion"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:onClick="guardar_marca"
+            android:text="@string/guardar" />
+
+
+    </TableRow>
+
+
+</TableLayout>

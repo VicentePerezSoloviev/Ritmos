@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:stretchColumns="1"
+        android:shrinkColumns="0" >
+
+        <TableRow
+            android:layout_width="fill_parent">
+            <Button
+                android:id="@+id/dep"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:layout_gravity="left"/>
+
+            <TextView />
+
+            <Button
+                android:id="@+id/eliminar"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_gravity="right"
+                android:background="@drawable/icono_basura"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="60dp">
+            <TextView
+                android:id="@+id/distancia_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/distancia" />
+            <TextView
+                android:id="@+id/distancia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="60dp">
+            <TextView
+                android:id="@+id/tiempo_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/tiempo" />
+
+            <TextView
+                android:id="@+id/tiempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="60dp">
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+</RelativeLayout>

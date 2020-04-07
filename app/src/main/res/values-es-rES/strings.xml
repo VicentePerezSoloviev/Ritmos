@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ritmos</string>
+
+    <string name="defaultTime">00:00:00.000</string>
+
+    <string name="natacion">Natación</string>
+    <string name="carrera">Carrera</string>
+    <string name="mejores_marcas">Mis mejores marcas</string>
+    <string name="nueva_marca">Nueva marca</string>
+    <string name="sugerencias">Sugerencias</string>
+
+    <string name="calcular_tiempo">Calcular tiempo</string>
+    <string name="calcular_ritmo">Calcular ritmo</string>
+    <string name="calcular_distancia">Calcular distancia</string>
+
+    <string name="ritmo">Ritmo: </string>
+    <string name="distancia">Distancia: </string>
+    <string name="tiempo">Tiempo: </string>
+    <string name="deporte">Deporte: </string>
+    <string name="descripcion">Descripción: </string>
+
+    <string name="horas_inter">h</string>
+    <string name="minutos_inter">min</string>
+    <string name="segundos_inter">s</string>
+    <string name="segundos_per_k_inter">s / km</string>
+    <string name="segundos_per_100m_inter">sec/100m</string>
+
+    <string name="metros_inter">m</string>
+
+    <string name="metros">metros</string>
+
+    <string name="calcular">Calcular</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="mostrar_marcas">Mostrar marcas</string>
+    <string name="guardar">Guardar</string>
+    <string name="cambiar_idioma">Cambiar idioma</string>
+
+    <string name="mensaje_error">Se ha producido un error melon! Por favor rellena los campos correctamente. Gracias crack!!</string>
+
+    <string name="calculadora_carrera">Calculadora ritmo de carrera</string>
+    <string name="calculadora_natacion">Calculadora ritmo de natación</string>
+    <string name="cronometro">Cronómetro</string>
+
+</resources>

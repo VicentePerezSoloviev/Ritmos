@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:background="@drawable/mix"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="soloviev.perez.vicente.ritmos.MainActivity">
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4666536989991556/1030054990"></com.google.android.gms.ads.AdView>
+
+    <Button
+        android:id="@+id/natacion"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:onClick="lanzarNatacion"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:text="@string/natacion" />
+
+
+    <Button
+        android:id="@+id/carrera"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lanzarCarrera"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:layout_marginTop="230dp"
+        android:textSize="20dp"
+        android:text="@string/carrera" />
+
+
+    <Button
+        android:id="@+id/marcas"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lanzarMarcas"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:layout_marginTop="360dp"
+        android:textSize="20dp"
+        android:text="@string/mejores_marcas" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/crono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lanzarCrono"
+        android:layout_marginTop="400dp"
+        app:elevation="5dp"
+        app:srcCompat="@drawable/ic_timer_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+
+</RelativeLayout>

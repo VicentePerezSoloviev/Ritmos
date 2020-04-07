@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pитма</string>
+
+    <string name="defaultTime">00:00:00.000</string>
+
+    <string name="natacion">Плавание</string>
+    <string name="carrera">Бег</string>
+    <string name="mejores_marcas">Мои лучшие показатели</string>
+    <string name="nueva_marca">новый лучшие показатели</string>
+    <string name="sugerencias">Отзывы</string>
+
+    <string name="calcular_tiempo">Вычислить Время</string>
+    <string name="calcular_ritmo">Вычислить Ритм</string>
+    <string name="calcular_distancia">Вычислить Расстояние</string>
+
+    <string name="ritmo">Ритм: </string>
+    <string name="distancia">Расстояние: </string>
+    <string name="tiempo">Время: </string>
+    <string name="deporte">Вид спорта: </string>
+    <string name="descripcion">Описание: </string>
+
+    <string name="horas_inter">ч</string>
+    <string name="minutos_inter">мин</string>
+    <string name="segundos_inter">сек</string>
+    <string name="segundos_per_k_inter">сек / км</string>
+    <string name="segundos_per_100m_inter">сек / 100м</string>
+
+    <string name="metros_inter">м</string>
+
+    <string name="metros">метров</string>
+
+    <string name="calcular">Вычислить</string>
+    <string name="limpiar">Стереть</string>
+    <string name="mostrar_marcas">Твои показатели</string>
+    <string name="guardar">Сохранить</string>
+    <string name="cambiar_idioma">Изменить язык</string>
+
+    <string name="mensaje_error">Произошла ошибка! Пожалуйста, введите данные заново. Спасибо, чемпион!!</string>
+
+    <string name="calculadora_carrera">Вычислитель ритма бега</string>
+    <string name="calculadora_natacion">Вычислитель ритма плавания</string>
+    <string name="cronometro">Хронометраж</string>
+
+</resources>

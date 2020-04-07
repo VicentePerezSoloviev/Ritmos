@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paces</string>
+
+    <string name="defaultTime">00:00:00.000</string>
+
+    <string name="natacion">Swimming</string>
+    <string name="carrera">Running</string>
+    <string name="mejores_marcas">My personal bests</string>
+    <string name="nueva_marca">New personal best</string>
+    <string name="sugerencias">Suggestions</string>
+
+    <string name="calcular_tiempo">Calculate time</string>
+    <string name="calcular_ritmo">Calculate pace</string>
+    <string name="calcular_distancia">Calculate distance</string>
+
+    <string name="ritmo">Pace: </string>
+    <string name="distancia">Distance: </string>
+    <string name="tiempo">Time: </string>
+    <string name="deporte">Sport: </string>
+    <string name="descripcion">Description: </string>
+
+    <string name="horas_inter">h</string>
+    <string name="minutos_inter">min</string>
+    <string name="segundos_inter">s</string>
+    <string name="segundos_per_k_inter">s / km</string>
+    <string name="segundos_per_100m_inter">sec/100m</string>
+
+    <string name="metros_inter">m</string>
+
+    <string name="metros">meters</string>
+
+    <string name="calcular">Calculate</string>
+    <string name="limpiar">Clean</string>
+    <string name="mostrar_marcas">Show my bests</string>
+    <string name="guardar">Save</string>
+    <string name="cambiar_idioma">Change lenguage</string>
+
+    <string name="mensaje_error">You have made a mistake! Please enter all the information correctly. Thanks mate!!</string>
+
+    <string name="calculadora_carrera">Race pace calculator</string>
+    <string name="calculadora_natacion">Swimming pace calculator</string>
+    <string name="cronometro">Chronometer</string>
+
+</resources>

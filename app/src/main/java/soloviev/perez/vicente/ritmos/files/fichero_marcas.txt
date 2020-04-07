@@ -1,0 +1,3 @@
+Evolutionary Algorithms (EAs) are methods for solving optimisation problems inspired by the natural selection process. Recently, these algorithms have become increasingly popular due to their adaptability for real-world applications in areas such as medicine (Smith & Cagnoni, 2011), environmental sciences (Haupt, 2009), music (Miranda & Biles, 2007), food sciences (Lutton, Perrot, & Tonda, 2016), engineering (Kartite & Cherkaoui, 2016), etc.
+https://www.sciencedirect.com/science/article/pii/S0957417419307973
+
