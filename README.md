@@ -5,4 +5,8 @@ It is a basic app as it was used to learn Android in my own.
 
 The app in the play store can be found in: https://play.google.com/store/apps/details?id=soloviev.perez.vicente.ritmos2
 
+![Capture of the app](/foto.PNG)
+![Capture of the app](/foto1.PNG)
+![Capture of the app](/foto2.PNG)
+
 
